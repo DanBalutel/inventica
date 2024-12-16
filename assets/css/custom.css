@@ -1,0 +1,158 @@
+.gradient,
+.testimonials,
+.menu,
+.intro-section {
+    background: linear-gradient(to right, #8b611c, #f9a204);
+}
+
+.portfolio-box .portfolio-info,
+.heading-line::before,
+.heading-line::after,
+.btn-primary,
+.btn-rounded span {
+    background: #f9a204 !important;
+     !i;
+     !;
+}
+
+
+.btn-rounded:hover {
+    background: white !important;
+    color: black;
+}
+
+a.glightbox.position-absolute.top-50.start-50.translate-middle {
+    display: none;
+}
+
+.border-primary,
+.testimonials__picture img {
+    border-color: #f9a204 !important;
+}
+
+
+
+a:hover,
+.footer-sm a:hover,
+.services__content .icon,
+.testimonials__card i,
+.testimonials__card .ratings i {
+    color: #f9a204;
+}
+
+.display-3--title {
+    background-image: linear-gradient(to right, #a9965f, #f9a204);
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    color: #a9965f;
+    background-color: #ffdfa6;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.btn-outline-primary {
+    color: #a9965f;
+    border-color: #a9965f;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #f9a204;
+    border-color: #f9a204;
+}
+
+.portfolio-box {
+    border-top: 0.5rem solid #f9a204;
+}
+
+.contact-box__icon {
+    stroke: #f9a204;
+}
+
+.btn-primary:hover {
+    background-color: #8b611c !important;
+}
+
+.navbar-brand>img {
+    max-width: 5rem;
+}
+
+.contact-box__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-box {
+    margin-bottom: 2rem;
+}
+
+a.rounded-pill.btn-rounded>span {
+    display: flex;
+    justify-content: center;
+}
+
+a.rounded-pill.btn-rounded {
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    section#services>.container>.row:nth-child(odd) {
+        flex-direction: column-reverse !important;
+    }
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loaderContainer {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: white;
+    z-index: 100000;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.section-title {
+    color: black;
+}
