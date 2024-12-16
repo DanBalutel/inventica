@@ -156,3 +156,8 @@ a.rounded-pill.btn-rounded {
 .section-title {
     color: black;
 }
+
+section#contact .col-12.col-lg-6.bg-white.shadow.p-3 {
+    display: flex;
+    align-items: center;
+}
