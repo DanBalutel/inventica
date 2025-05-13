@@ -11,8 +11,8 @@
 .btn-primary,
 .btn-rounded span {
     background: #f9a204 !important;
-     !i;
-     !;
+    !i;
+    !;
 }
 
 
@@ -160,4 +160,9 @@ a.rounded-pill.btn-rounded {
 section#contact .col-12.col-lg-6.bg-white.shadow.p-3 {
     display: flex;
     align-items: center;
+}
+
+section#testimonials>svg,
+section#home>svg {
+    margin-bottom: -.1rem !important;
 }
